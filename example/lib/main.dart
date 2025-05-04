@@ -43,25 +43,24 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        //context.theme is the same as Theme.of(context)
-        backgroundColor: context.theme.colorScheme.inversePrimary,
+        ///context.theme is the same as Theme.of(context)
+        backgroundColor: context.colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              //context.theme is the same as Theme.of(context)
-              style: context.theme.textTheme.headlineMedium,
-            ),
-          ],
-        ),
-      ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Text(
+            'You have pushed the button this many times:',
+          ),
+          Text(
+            '$_counter',
+
+            ///context.theme is the same as Theme.of(context)
+            style: context.textTheme.headlineMedium,
+          ),
+        ],
+      ).center(),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
