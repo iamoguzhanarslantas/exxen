@@ -20,4 +20,7 @@ You can use very easy context elements,
 ```dart
 //context.theme is the same as Theme.of(context)
 style: context.theme.textTheme.headlineMedium
+
+//context.textTheme is the same as Theme.of(context).textTheme
+style: context.textTheme.headlineMedium
 ```
