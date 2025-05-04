@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
 extension WidgetExxension on Widget {
-  Widget padding(EdgeInsetsGeometry padding) => Padding(
-        padding: padding,
+  Widget padding(EdgeInsetsGeometry? padding) => Padding(
+        padding: padding ?? EdgeInsets.zero,
         child: this,
       );
-  Widget center() => Center(child: this);
+  Widget center() => Center(
+        child: this,
+      );
   Widget sizedBox({double? width, double? height}) => SizedBox(
         width: width,
         height: height,
@@ -15,7 +17,12 @@ extension WidgetExxension on Widget {
         color: color,
         child: this,
       );
-  Widget withOpacity(double? opacity) =>
-      Opacity(opacity: opacity = 0, child: this);
-  Widget expanded({int? flex}) => Expanded(flex: flex = 1, child: this);
+  Widget opacity(double? opacity) => Opacity(
+        opacity: opacity = 0,
+        child: this,
+      );
+  Widget expanded({int? flex}) => Expanded(
+        flex: flex = 1,
+        child: this,
+      );
 }
