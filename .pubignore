@@ -1,0 +1,17 @@
+# Development-related directories
+example/
+test/
+tool/
+
+# Build outputs and cache
+build/
+.dart_tool/
+.pub/
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
