@@ -1,0 +1,2 @@
+/Users/iamoguzhanarslantas/Documents/GitHub/exxen/example/android/app/.cxx/Debug/473t1s28/x86/CMakeFiles/edit_cache.dir
+/Users/iamoguzhanarslantas/Documents/GitHub/exxen/example/android/app/.cxx/Debug/473t1s28/x86/CMakeFiles/rebuild_cache.dir
