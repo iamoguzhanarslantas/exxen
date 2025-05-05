@@ -1,3 +1,6 @@
+## 0.0.4 - 05/05/2025
+* Widget, Context and String Extension's example added.
+
 ## 0.0.3 - 05/05/2025
 * Widget, Context and String Extension's desricptions added.
 
