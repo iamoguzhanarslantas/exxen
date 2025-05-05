@@ -1,3 +1,6 @@
+## 0.0.5 - 05/05/2025
+* Update package description
+
 ## 0.0.4 - 05/05/2025
 * Widget, Context and String Extension's example added.
 
