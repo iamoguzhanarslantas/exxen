@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// This file is part of the Exxention package, which provides a set of utility extensions for Dart and Flutter.
+/// This extension adds convenience methods to the [BuildContext] class.
 extension ContextExxension on BuildContext {
   /// Returns the current [ThemeData] from the context.
   /// This is a convenience method to access the theme data without having to call `Theme.of(context)` every time.

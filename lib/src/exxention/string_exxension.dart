@@ -1,3 +1,4 @@
+/// This file is part of the Exxention package, which provides a set of utility extensions for Dart and Flutter.
 extension StringPathExxension on String {
   /// Adds the `.png` extension to the given file path.
   /// This is a convenience method to access the image path without having to call `path/$this.png` every time.

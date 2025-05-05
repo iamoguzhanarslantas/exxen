@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// A set of extension methods for the [Widget] class in Flutter.
 extension WidgetExxension on Widget {
   /// Adds padding around the widget. If no padding is provided, it defaults to zero.
   Widget padding(EdgeInsetsGeometry? padding) => Padding(
