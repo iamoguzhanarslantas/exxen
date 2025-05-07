@@ -18,9 +18,16 @@ You can use very easy context elements,
 * For Example:
 
 ```dart
-//context.theme is the same as Theme.of(context)
-style: context.theme.textTheme.headlineMedium
 
+//context.theme is the same as Theme.of(context)
+//context.colorScheme is the same as Theme.of(context).colorScheme
+backgroundColor: context.colorScheme.inversePrimary
+
+//context.theme is the same as Theme.of(context)
 //context.textTheme is the same as Theme.of(context).textTheme
 style: context.textTheme.headlineMedium
+
+// .center() is the same as Center(child: Column(...))
+Column().center()
+
 ```

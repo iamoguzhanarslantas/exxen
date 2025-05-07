@@ -1,7 +1,7 @@
 name: exxen
 description: "Exxen is a Flutter package that offers extensions to make your code cleaner, reusable, and easier to maintain."
 # author: Oguzhan Arslantas <iamoguzhanarslantas@gmail.com>
-version: 0.0.6
+version: 0.0.7
 homepage: https://github.com/iamoguzhanarslantas/exxen
 
 environment:

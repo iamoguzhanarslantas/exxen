@@ -1,3 +1,6 @@
+## 0.0.7 - 07/05/2025
+* Widget Extension is updated.
+
 ## 0.0.6 - 05/05/2025
 * Widget, Context and String Extensions are updated.
 

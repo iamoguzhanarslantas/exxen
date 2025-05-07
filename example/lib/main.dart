@@ -44,6 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         ///context.theme is the same as Theme.of(context)
+        ///context.colorScheme is the same as Theme.of(context).colorScheme
         backgroundColor: context.colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
@@ -57,9 +58,12 @@ class _MyHomePageState extends State<MyHomePage> {
             '$_counter',
 
             ///context.theme is the same as Theme.of(context)
+            ///context.textTheme is the same as Theme.of(context).textTheme
             style: context.textTheme.headlineMedium,
           ),
         ],
+
+        /// .center() is the same as Center(child: Column(...))
       ).center(),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,

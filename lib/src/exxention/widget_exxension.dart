@@ -137,4 +137,46 @@ extension WidgetExxension on Widget {
         offset: Offset(x ?? 0.0, y ?? 0.0),
         child: this,
       );
+
+  /// Wrap the widget with an InkWell to make it tappable.
+  /// If no onTap callback is provided, it defaults to a no-op.
+  Widget onTap(void Function()? onTap) => InkWell(
+        onTap: onTap,
+        child: this,
+      );
+
+  /// Wrap the widget with an Align widget to control alignment.
+  /// If no alignment is provided, it defaults to `Alignment.center`.
+  Widget align({Alignment alignment = Alignment.center}) => Align(
+        alignment: alignment,
+        child: this,
+      );
+
+  /// Wrap the widget with a Hero widget for animated screen transitions.
+  /// If no tag is provided, it defaults to an empty string.
+  Widget hero(String tag) => Hero(
+        tag: tag,
+        child: this,
+      );
+
+  /// Wrap the widget with a GestureDetector to detect gestures like taps and long presses.
+  /// If no gestures are provided, it defaults to a no-op.
+  Widget gestureDetector({
+    void Function()? onTap,
+    void Function()? onDoubleTap,
+    void Function()? onLongPress,
+  }) =>
+      GestureDetector(
+        onTap: onTap,
+        onDoubleTap: onDoubleTap,
+        onLongPress: onLongPress,
+        child: this,
+      );
+
+  /// Wrap the widget with a FittedBox to scale and position it within its parent.
+  /// If no fit is provided, it defaults to `BoxFit.contain`.
+  Widget fittedBox({BoxFit? fit}) => FittedBox(
+        fit: fit ?? BoxFit.contain,
+        child: this,
+      );
 }
