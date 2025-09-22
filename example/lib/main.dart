@@ -65,11 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         /// .center() is the same as Center(child: Column(...))
       ).center(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ),
+      floatingActionButton: const LayoutSnapperButton(),
     );
   }
 }

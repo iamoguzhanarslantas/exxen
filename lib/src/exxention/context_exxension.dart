@@ -41,7 +41,7 @@ extension ContextExxension on BuildContext {
 
   /// Returns the current [AppBarTheme] from the context.
   /// This is a convenience method to access the AppBarTheme without having to call `Theme.of(context).appBarTheme` every time.
-  AppBarTheme get appBarTheme => theme.appBarTheme;
+  AppBarThemeData get appBarTheme => theme.appBarTheme;
 
   /// Returns the current [ColorScheme] from the theme.
   /// This is a convenience method to access the color scheme without having to call `Theme.of(context).colorScheme` every time.
