@@ -1,5 +1,5 @@
 name: exxen
-description: "Exxen is a Flutter package that offers extensions to make your code cleaner, reusable, and easier to maintain."
+description: "Exxen is a Flutter package that offers extensions to make your code cleaner, reusable, and easier to maintain. It is compatible with WebAssembly (WASM)."
 # author: Oguzhan Arslantas <iamoguzhanarslantas@gmail.com>
 version: 0.0.7
 homepage: https://github.com/iamoguzhanarslantas/exxen
