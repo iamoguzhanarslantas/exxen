@@ -1,3 +1,6 @@
+## 0.0.9 - 26/09/2025
+* Widget Extension is updated.
+
 ## 0.0.8 - 26/09/2025
 * Widget Extension is updated.
 
