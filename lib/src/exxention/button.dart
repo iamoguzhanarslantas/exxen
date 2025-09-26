@@ -7,7 +7,8 @@ class LayoutSnapperButton extends StatelessWidget {
   final Alignment alignment;
 
   /// Creates a [LayoutSnapperButton].
-  const LayoutSnapperButton({super.key, this.alignment = Alignment.bottomRight});
+  const LayoutSnapperButton(
+      {super.key, this.alignment = Alignment.bottomRight});
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +18,7 @@ class LayoutSnapperButton extends StatelessWidget {
         mini: true,
         onPressed: () {
           final json = LayoutSnapper.snapshot();
-          debugPrint(json); // Terminale yaz
-          // TODO: Dosyaya kaydetme eklenebilir
+          debugPrint(json);
         },
         child: const Icon(Icons.bug_report),
       ),
